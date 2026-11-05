@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Islam Raiymbekov Portfolio</title>
+  <meta name="description" content="Islam Raiymbekov - Product Designer Portfolio" />
+  <link rel="icon" href="images.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+  
+</head>
+<body>
+  <header>
+        <div class="container">
+            <div class="logo">Islam R</div>
+            <nav id="menu" class="header_nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-controls">
+                <button id='hamburger' aria-expanded='false' aria-controls='menu' aria-label='Открыть меню'>
+                    <span class='hamburger-bars'>
+                        <span class='bar'></span>
+                        <span class='bar'></span>
+                        <span class='bar'></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="intro">
+          <p id="greeting" class="greeting-text" aria-live="polite"></p>
+          <button id="askName" class="btn">Introduce yourself</button>
+          <h4>Hello, I'm Islam,</h4>
+          <h1>Product <br />Designer</h1>
+          <h4>based in Kyrgyzstan.</h4>
+          <button type="button" class="btn" 
+        onclick="window.open('https://www.linkedin.com/in/islam-raiymbekov-81502b389/', '_blank')">
+  Resume
+</button>
+
+
+        </div>
+        <div class="photo">
+          <img src="islam.jpg" alt="Islam Raiymbekov portrait" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+    <div class="container">
+  <h1 class="hero-heading">About</h1>
+        <div class="projects-grid about-features">
+          <article class="project-item">
+            <h3>Who am I?</h3>
+            <p>Product designer focused on user-centered interfaces, design systems and visual storytelling.</p>
+          </article>
+          <article class="project-item">
+            <h3>What I do</h3>
+            <p>I design web & mobile interfaces, prototype interactions and deliver production-ready assets.</p>
+          </article>
+          <article class="project-item">
+            <h3>Skills</h3>
+            <p>UX/UI, Prototyping, Figma, HTML, CSS, JavaScript, Design Systems,Java,Python.</p>
+          </article>
+        </div>
+
+        <p>
+          I create simple and usable digital products by combining research, visual design and front-end skills.
+          I enjoy collaborating with teams to ship polished user experiences.
+        </p>
+      </div>
+    </section>
+
+   <section id="projects" class="projects">
+    <div class="container">
+  <h1 class="hero-heading">Projects</h1>
+
+        <div class="projects-grid">
+          <article class="project-item">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio with responsive layout and subtle animations.</p>
+            <p><strong>Tech stack:</strong> HTML, CSS, JavaScript</p>
+            <div class="project-links">
+              <a class="btn" href="https://islamrmbkv.github.io/PORT-WEB-1/" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+      <div class="contact-wrapper container">
+        <div class="contact-card">
+          <div class="contact-media">
+            <img src="contact.jpg" alt="Contact avatar" />
+          </div>
+          <div class="contact-info">
+            <h1 class="hero-heading">Contact</h1>
+            <p class="lead">Interested in working together? Send a message and I will reply shortly.</p>
+            <ul class="contacts-list">
+              <li><strong>Email:</strong> <a href="mygmail:islamrmbkv@gmail.com">islamrmbkv@gmail.com</a></li>
+              <li><strong>Twitter:</strong> <a href="https://twitter.com/islamrmbkv" target="_blank" rel="noopener">twitter.com/islamrmbkv</a></li>
+              <li><strong>Behance:</strong> <a href="https://behance.net/islamrmbkv" target="_blank" rel="noopener">behance.com/islamrmbkv</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="your@gmail.com" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Message"></textarea>
+          </label>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+      <footer>
+    <div class="container">
+      <p>&copy; 2026 Islam R. All rights reserved.</p>
+    </div>
+  </footer>
+    </section>
+  </main>
+
+  
+  <button id="scrollTopBtn" class="scroll-top" title="Наверх" aria-label="Наверх">↑</button>
+  <div class="custom-cursor" id="customCursor" aria-hidden="true"></div>
+  <script src="script.js"></script> 
+</body>
+</html>
